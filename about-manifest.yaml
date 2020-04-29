@@ -77,12 +77,12 @@ spec:
         - name: APP_USERNAME
           valueFrom:
             secretKeyRef:
-              name: sampleapp-secret
+              name: app-secret
               key: username
         - name: APP_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: sampleapp-secret
+              name: app-secret
               key: password
     
       
