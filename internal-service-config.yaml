@@ -12,7 +12,5 @@ data:
   DADJOKE_HOST: dadjoke-dev
   GEEKJOKE_HOST: geekjoke-dev
   ZIPKIN_HOST: zipkin.istio-system
-  MYSQL_ANAPLAN_SERVICE_HOST: localhost
-  MYSQL_ANAPLAN_SERVICE_PORT: "3306"
   USERNAME: a
   PASSWORD: p

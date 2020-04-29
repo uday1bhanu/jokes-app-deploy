@@ -13,6 +13,7 @@ else
 fi
 
 kubectl apply -f internal-service-config.yaml
+kubectl apply -f app-secret.yaml
 
 kubectl apply -f <(istioctl kube-inject -f geekjoke-manifest.yaml)
 sleep 20
